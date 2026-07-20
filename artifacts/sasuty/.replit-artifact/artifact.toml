@@ -1,0 +1,27 @@
+kind = "web"
+previewPath = "/"
+title = "Sasuty"
+version = "1.0.0"
+id = "artifacts/sasuty"
+router = "path"
+
+[[services]]
+name = "web"
+paths = [ "/" ]
+localPort = 24434
+
+[services.development]
+run = "pnpm --filter @workspace/sasuty run dev"
+
+[services.production]
+build = [ "pnpm", "--filter", "@workspace/sasuty", "run", "build" ]
+serve = "static"
+publicDir = "artifacts/sasuty/dist/public"
+
+[[services.production.rewrites]]
+from = "/*"
+to = "/index.html"
+
+[services.env]
+PORT = "24434"
+BASE_PATH = "/"

@@ -1,0 +1,151 @@
+{
+  "nav": {
+    "home": "Home",
+    "search": "Search",
+    "trending": "Trending",
+    "notifications": "Notifications",
+    "profile": "Profile",
+    "settings": "Settings",
+    "logout": "Log out",
+    "post": "Post"
+  },
+  "auth": {
+    "signIn": "Sign in to Sasuty",
+    "signUp": "Create account",
+    "signInWithGoogle": "Sign in with Google",
+    "email": "Email",
+    "password": "Password",
+    "displayName": "Display name",
+    "signInBtn": "Sign in",
+    "signUpBtn": "Register",
+    "noAccount": "Don't have an account?",
+    "hasAccount": "Already have an account?",
+    "signUpLink": "Sign up",
+    "signInLink": "Sign in"
+  },
+  "feed": {
+    "forYou": "For you",
+    "following": "Following",
+    "noPostsYet": "No posts yet. Be the first to post!",
+    "noFollowingPosts": "No posts from people you follow yet.",
+    "loadMore": "Load more"
+  },
+  "compose": {
+    "placeholder": "What's happening?",
+    "replyPlaceholder": "Post your reply",
+    "postBtn": "Post",
+    "addImage": "Add image",
+    "addLink": "Add link",
+    "imageLimitReached": "You can only post one image per day",
+    "charsLeft": "Characters left",
+    "linkUrl": "Link URL",
+    "linkTitle": "Link title (optional)",
+    "linkDescription": "Link description (optional)",
+    "attach": "Attach",
+    "cancel": "Cancel",
+    "dailyImageLimit": "You've used your image post for today. Come back tomorrow!"
+  },
+  "post": {
+    "replies": "Replies",
+    "reposts": "Reposts",
+    "likes": "Likes",
+    "views": "Views",
+    "reply": "Reply",
+    "repost": "Repost",
+    "like": "Like",
+    "share": "Share",
+    "copyLink": "Copy link",
+    "linkCopied": "Link copied!",
+    "delete": "Delete",
+    "notFound": "Post not found",
+    "back": "Back",
+    "repostedLabel": "reposted"
+  },
+  "profile": {
+    "follow": "Follow",
+    "unfollow": "Unfollow",
+    "following": "Following",
+    "followers": "Followers",
+    "posts": "Posts",
+    "editProfile": "Edit profile",
+    "joined": "Joined",
+    "location": "Location",
+    "birthday": "Birthday",
+    "website": "Website",
+    "noPosts": "No posts yet",
+    "noFollowers": "No followers yet",
+    "noFollowing": "Not following anyone yet"
+  },
+  "settings": {
+    "title": "Settings",
+    "accountSettings": "Account settings",
+    "accountDesc": "Profile, username, bio and more",
+    "languageSettings": "Language",
+    "languageDesc": "Select your display language",
+    "displayName": "Display name",
+    "username": "Username",
+    "bio": "Bio",
+    "avatarUrl": "Avatar URL",
+    "bannerUrl": "Banner URL",
+    "location": "Location",
+    "birthday": "Birthday",
+    "website": "Website",
+    "language": "Language",
+    "save": "Save",
+    "saving": "Saving...",
+    "saved": "Saved",
+    "langJa": "Japanese",
+    "langEn": "English",
+    "preview": "Preview"
+  },
+  "search": {
+    "title": "Search",
+    "placeholder": "Search Sasuty",
+    "posts": "Posts",
+    "users": "People",
+    "noResults": "No results found",
+    "typeToSearch": "Search by keyword, #hashtag, or @username"
+  },
+  "trending": {
+    "title": "Trending",
+    "trending": "Trending",
+    "posts": "posts",
+    "hotPosts": "Hot posts",
+    "showMore": "Show more"
+  },
+  "notifications": {
+    "title": "Notifications",
+    "empty": "No notifications yet",
+    "liked": "liked your post",
+    "replied": "replied to your post",
+    "followed": "followed you",
+    "reposted": "reposted your post",
+    "newNotifications": "New notifications"
+  },
+  "sidebar": {
+    "whoToFollow": "Who to follow",
+    "follow": "Follow",
+    "searchPlaceholder": "Search",
+    "whatsHappening": "What's happening?",
+    "showMore": "Show more",
+    "terms": "Terms",
+    "privacy": "Privacy",
+    "copyright": "© 2025 Sasuty"
+  },
+  "notFound": {
+    "title": "Page not found",
+    "description": "The page you're looking for doesn't exist or has been moved.",
+    "goHome": "Go home"
+  },
+  "common": {
+    "loading": "Loading...",
+    "error": "Something went wrong",
+    "retry": "Retry",
+    "cancel": "Cancel",
+    "save": "Save",
+    "delete": "Delete",
+    "confirm": "Confirm",
+    "close": "Close",
+    "or": "or"
+  }
+}

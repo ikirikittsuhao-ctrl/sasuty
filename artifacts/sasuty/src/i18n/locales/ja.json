@@ -1,0 +1,151 @@
+{
+  "nav": {
+    "home": "ホーム",
+    "search": "検索",
+    "trending": "急上昇",
+    "notifications": "通知",
+    "profile": "プロフィール",
+    "settings": "設定",
+    "logout": "ログアウト",
+    "post": "投稿する"
+  },
+  "auth": {
+    "signIn": "Sasutyにサインイン",
+    "signUp": "アカウント作成",
+    "signInWithGoogle": "Googleでサインイン",
+    "email": "メールアドレス",
+    "password": "パスワード",
+    "displayName": "表示名",
+    "signInBtn": "サインイン",
+    "signUpBtn": "登録",
+    "noAccount": "アカウントをお持ちでない方は",
+    "hasAccount": "すでにアカウントをお持ちの方は",
+    "signUpLink": "登録",
+    "signInLink": "サインイン"
+  },
+  "feed": {
+    "forYou": "おすすめ",
+    "following": "フォロー中",
+    "noPostsYet": "まだ投稿がありません。最初に投稿してみましょう！",
+    "noFollowingPosts": "フォロー中のユーザーの投稿がありません。",
+    "loadMore": "さらに読み込む"
+  },
+  "compose": {
+    "placeholder": "いまどうしてる？",
+    "replyPlaceholder": "返信を投稿",
+    "postBtn": "投稿する",
+    "addImage": "画像を追加",
+    "addLink": "リンクを追加",
+    "imageLimitReached": "画像は1日1枚まで投稿できます",
+    "charsLeft": "残り文字数",
+    "linkUrl": "リンクURL",
+    "linkTitle": "リンクタイトル（任意）",
+    "linkDescription": "リンクの説明（任意）",
+    "attach": "添付",
+    "cancel": "キャンセル",
+    "dailyImageLimit": "本日の画像投稿枠を使い切りました。明日また投稿できます。"
+  },
+  "post": {
+    "replies": "返信",
+    "reposts": "リポスト",
+    "likes": "いいね",
+    "views": "表示",
+    "reply": "返信",
+    "repost": "リポスト",
+    "like": "いいね",
+    "share": "共有",
+    "copyLink": "リンクをコピー",
+    "linkCopied": "リンクをコピーしました",
+    "delete": "削除",
+    "notFound": "投稿が見つかりませんでした",
+    "back": "戻る",
+    "repostedLabel": "がリポストしました"
+  },
+  "profile": {
+    "follow": "フォロー",
+    "unfollow": "フォロー解除",
+    "following": "フォロー中",
+    "followers": "フォロワー",
+    "posts": "投稿",
+    "editProfile": "プロフィールを編集",
+    "joined": "登録日",
+    "location": "場所",
+    "birthday": "誕生日",
+    "website": "ウェブサイト",
+    "noPosts": "まだ投稿がありません",
+    "noFollowers": "フォロワーはいません",
+    "noFollowing": "フォロー中のユーザーはいません"
+  },
+  "settings": {
+    "title": "設定",
+    "accountSettings": "アカウント設定",
+    "accountDesc": "プロフィール・ユーザー名・自己紹介など",
+    "languageSettings": "言語設定",
+    "languageDesc": "表示言語を選択してください",
+    "displayName": "表示名",
+    "username": "ユーザー名",
+    "bio": "自己紹介",
+    "avatarUrl": "アバター画像URL",
+    "bannerUrl": "バナー画像URL",
+    "location": "場所",
+    "birthday": "誕生日",
+    "website": "ウェブサイト",
+    "language": "言語",
+    "save": "保存",
+    "saving": "保存中...",
+    "saved": "保存しました",
+    "langJa": "日本語",
+    "langEn": "English",
+    "preview": "プレビュー"
+  },
+  "search": {
+    "title": "検索",
+    "placeholder": "Sasutyを検索",
+    "posts": "投稿",
+    "users": "ユーザー",
+    "noResults": "結果が見つかりませんでした",
+    "typeToSearch": "キーワード・#タグ・@ユーザー名で検索"
+  },
+  "trending": {
+    "title": "急上昇",
+    "trending": "トレンド",
+    "posts": "件の投稿",
+    "hotPosts": "人気の投稿",
+    "showMore": "もっと見る"
+  },
+  "notifications": {
+    "title": "通知",
+    "empty": "まだ通知はありません",
+    "liked": "さんがいいねしました",
+    "replied": "さんが返信しました",
+    "followed": "さんがフォローしました",
+    "reposted": "さんがリポストしました",
+    "newNotifications": "新しい通知があります"
+  },
+  "sidebar": {
+    "whoToFollow": "おすすめユーザー",
+    "follow": "フォロー",
+    "searchPlaceholder": "検索",
+    "whatsHappening": "いまどうなってる？",
+    "showMore": "もっと見る",
+    "terms": "利用規約",
+    "privacy": "プライバシーポリシー",
+    "copyright": "© 2025 Sasuty"
+  },
+  "notFound": {
+    "title": "ページが見つかりません",
+    "description": "お探しのページは存在しないか、移動した可能性があります。",
+    "goHome": "ホームへ戻る"
+  },
+  "common": {
+    "loading": "読み込み中...",
+    "error": "エラーが発生しました",
+    "retry": "再試行",
+    "cancel": "キャンセル",
+    "save": "保存",
+    "delete": "削除",
+    "confirm": "確認",
+    "close": "閉じる",
+    "or": "または"
+  }
+}

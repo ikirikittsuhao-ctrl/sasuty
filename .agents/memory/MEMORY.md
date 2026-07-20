@@ -1,0 +1,3 @@
+- [Deployment setup](deployment-setup.md) — single-process deploy: Express serves both /api/* and built Vite frontend static files; Railway/Render/Docker configs added.
+- [i18n setup](i18n-setup.md) — react-i18next with ja/en locales in artifacts/sasuty/src/i18n/; useToast lives at @/hooks/use-toast not @/components/ui/use-toast.
+- [API schema v2](api-schema-v2.md) — users now have location/birthday/website/language/imagePostDate; posts have imageUrl/viewsCount/linkUrl/repostOfId/isReposted; reposts table added; replies use useCreateReply not useCreatePost with replyToId.

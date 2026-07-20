@@ -1,0 +1,31 @@
+services:
+  - type: web
+    name: sasuty
+    runtime: node
+    region: oregon
+
+    # pnpm is available via corepack on Render's node images
+    buildCommand: |
+      corepack enable
+      pnpm install --frozen-lockfile
+      NODE_ENV=production BASE_PATH=/ pnpm --filter @workspace/sasuty run build
+      pnpm --filter @workspace/api-server run build
+
+    startCommand: node --enable-source-maps artifacts/api-server/dist/index.mjs
+
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: PORT
+        value: "10000"
+      # Set these in the Render dashboard:
+      - key: DATABASE_URL
+        sync: false
+      - key: SUPABASE_URL
+        sync: false
+      - key: SUPABASE_ANON_KEY
+        sync: false
+      - key: SUPABASE_SERVICE_ROLE_KEY
+        sync: false
+      - key: SESSION_SECRET
+        sync: false
